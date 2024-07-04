@@ -25,7 +25,7 @@ const app = express();
 //Routes
 app.use(
   cors({
-    origin: 'https://video-app-frontend-rosy.vercel.app', // Replace with your frontend URL
+    origin: '*', // Replace with your frontend URL
     credentials: true,
   })
 );
