@@ -1,10 +1,10 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import usersRoute from '../server/routes/usersRoute.js';
-import videoRoute from '../server/routes/videosRoute.js';
-import commentRoute from '../server/routes/commentRoute.js';
-import authRoute from '../server/routes/authRoute.js';
+import usersRoute from './routes/usersRoute.js';
+import videoRoute from './routes/videosRoute.js';
+import commentRoute from './routes/commentRoute.js';
+import authRoute from './routes/authRoute.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 //Configure dotenv
