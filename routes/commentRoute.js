@@ -1,5 +1,5 @@
 import express from 'express';
-import { verifyToken } from '../../server/verifyToken.js';
+import { verifyToken } from '../verifyToken.js';
 import {
   addComment,
   deleteComment,
